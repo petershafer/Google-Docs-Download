@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Google Docs Download Updates</title>
+    <link>http://www.1st-soft.net/gdd/</link>
+    <description>Stay up to date with GDD.</description>
+    <item>
+      <title>GDD 3.2 now available</title>
+      <description>
+        <![CDATA[The latest version of GDD enables presentations created with the new interface to be exported. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Saturday, 22 Oct 2011 16:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD 3.1 now available</title>
+      <description>
+        <![CDATA[The latest version of GDD fixes several errors with the current Google Docs interface and prepares the script for the future interface. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Saturday, 5 Feb 2010 16:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD 3.0 now available</title>
+      <description>
+        <![CDATA[The latest version of GDD has been released for the newly updated Google Docs interface. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Saturday, 5 Feb 2010 16:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.82 now available</title>
+      <description>
+        <![CDATA[The latest version of GDD addresses broken download links to documents created with the new interface. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Monday, 8 Nov 2010 23:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.81</title>
+      <description>
+        <![CDATA[GDD 2.81 now available.  The script has been updated to be consistent with recent updates to the Google Docs interface. Links to files now appear with their correct titles. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Monday, 18 Oct 2010 13:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.8</title>
+      <description>
+        <![CDATA[GDD 2.8 now available.  Download formats can now be updated after the download screen appears.  <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sunday, 19 Sep 2010 13:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.7</title>
+      <description>
+        <![CDATA[GDD 2.7 now available.  Script now handles documents created by the new document interface.  <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sunday, 16 May 2010 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.6</title>
+      <description>
+        <![CDATA[GDD 2.6 now available.  Script now handles all uploaded files.  <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Saturday, 23 Jan 2010 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.51</title>
+      <description>
+        <![CDATA[GDD 2.51 now available.  A bug was fixed that emerged after a recent change to the Google Docs interface.  <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Monday, 2 Nov 2009 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.5</title>
+      <description>
+        <![CDATA[GDD 2.5 now available.  The script is now compatible with the recently changed Google Docs interface.  <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Wed, 14 Oct 2009 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.25</title>
+      <description>
+        <![CDATA[GDD 2.25 now available.  Fixes a recent bug with presentation links and also provides compatibility with other browsers.  (Tested with Chrome and Opera.)  <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Tue, 18 Aug 2009 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.24</title>
+      <description>
+        <![CDATA[Google docs was recently updated and as a result GDD did not handle PDF exports correctly anymore.  This update resolves that problem. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Thu, 23 Jul 2009 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD for Python (BETA)</title>
+      <description>
+        <![CDATA[Google Docs: Download is now available as a python script in addition to the original grease monkey script.  This is the first time I've publicly release a python script so there are probably some wrinkles to smooth out.  However, if you're looking for a more comprehensive way to back up your documents check it out.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Wed, 13 Jun 2009 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.23</title>
+      <description>
+        <![CDATA[Fixed a bug having to do with presentations. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Wed, 3 Jun 2009 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.22</title>
+      <description>
+        <![CDATA[Fixed a bug having to do with presentations. <a href="http://1st-soft.net/gdd/googledocdownload.user.js">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sun, 7 Dec 2008 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.21</title>
+      <description>
+        <![CDATA[GDD has been updated to fix a bug with Google Apps for Your Domain users. <a href="http://1st-soft.net/gdd/googledocdownload.user.js">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Wed, 10 Sep 2008 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.20</title>
+      <description>
+        <![CDATA[GDD's xpath queries have been re-written to ensure consistency and eliminate bugs when attempting to generate your download list. <a href="http://1st-soft.net/gdd/googledocdownload.user.js">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Mon, 8 Sep 2008 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>Bugs with GDD</title>
+      <description>
+        <![CDATA[Hi everyone.  I've been working on some fixes for GDD over the past couple of weeks but I've been a little slow to the punch since class has started again.  I'd like to thank everyone who has been using the bug report form or contacting me by email and I'm sorry if I haven't gotten back to you sooner. Hang tight and I'll try to get this straightened out as quickly as I can.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sun, 7 Sep 2008 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.10</title>
+      <description>
+        <![CDATA[Errors have been popping up sporadically over the past month.  This version of GDD reports errors with greater detail and also includes a work around for downloading your documents when the script does not work on the main interface.  Visit the <a href="https://docs.google.com/m">mobile version of google docs</a>.  All documents listed will automatically link to downloads and will be ready for downthemall.  You can click the &quot;Show All&quot; link to show downloads for all documents (unfortunately excluding presentation).  Links are also included to select the format you wish to download your documents in. <a href="http://1st-soft.net/gdd/googledocdownload.user.js">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Mon, 19 Aug 2008 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 2.00</title>
+      <description>
+        <![CDATA[The latest version of GDD now features better error handling and automatic update notices. Thanks Jeremy for the feature request. <a href="http://1st-soft.net/gdd/googledocdownload.user.js">Download Update</a>.   Also, check out GDD (Hack #8) in <a href="http://www.amazon.com/Google-Apps-Hacks-Philipp-Lenssen/dp/059651588X">Google Apps Hacks</a> by Philipp Lenssen of <a href="http://blogoscoped.com/">Google Blogoscoped</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Mon, 23 Jun 2008 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>GDD 1.54</title>
+      <description>
+        <![CDATA[Support for backing up pdf documents has been added. You'll only need to update if you're looking for that feature. <a href="http://1st-soft.net/gdd/googledocdownload.user.js">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sun, 15 Jun 2008 20:00:00 -0600</pubDate>
+    </item>
+  </channel>
+</rss>

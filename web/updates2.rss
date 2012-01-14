@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Google Docs Download Updates</title>
+    <link>http://www.1st-soft.net/gdd/</link>
+    <description>Stay up to date with GDD.</description>
+    <item>
+      <title>gdd.py and gdd3.py version 0.8</title>
+      <description>
+        <![CDATA[
+	Version 0.8 adds the new drawing-format option for configuring how you would like to download drawing files.  Values include: png, pdf, svg, and jpeg.  Thanks to Adam for bringing the original issue to my attention! 
+        <a href="http://1st-soft.net/gdd/">Visit the GDD Home page to download</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sun, 20 Mar 2011 15:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>gdd.py and gdd3.py version 0.73</title>
+      <description>
+        <![CDATA[
+		Version 0.73 fixes an error that would cause the script to crash when downloading drawings.  Drawings will now be downloaded in PNG format.  The next version of the script will include new configuration options for selecting the drawing file format.
+        <a href="http://1st-soft.net/gdd/">Visit the GDD Home page to download</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sun, 20 Mar 2011 15:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>gdd.py and gdd3.py version 0.72</title>
+      <description>
+        <![CDATA[
+		Version 0.72 includes a new command line option named override.  When it is set, gdd.py will not check if the document exists on the client side when determining if a modified version exists on the server.  Other minor code changes have been made as well.
+        <a href="http://1st-soft.net/gdd/">Visit the GDD Home page to download</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sat, 13 Nov 2010 17:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>gdd3.py (Google Labs version)</title>
+      <description>
+        <![CDATA[
+	If you are using Google Docs to store arbitrary file types (photos, mp3s, etc) then consider downloading gdd3.py.  This version of the script is based on version 3 of Google's Document List API protocol.  The new API is currently classified as a Google Labs project, so gdd3.py's behavior could possibly be less consistent.  It can be used alongside gdd.py and your existing configuration file.
+        <a href="http://1st-soft.net/gdd/">Visit the GDD Home page to download</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sat, 31 Jul 2010 20:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD 0.7</title>
+      <description>
+        <![CDATA[gdd.py version 0.7 is now available.  Among the changes: improved document indexing and downloading when using
+        the modified-only flag (please note, gdd.py will need to rebuild the index and requires you to re-download all of your 
+        documents if you are using the modified-only flag); gdd.py can be configured using config.ini; failed downloads are
+        retried three times before giving up for the session; CAPTCHA challenges from google are now handled; all pages of
+        spreadsheets downloaded as csv or tsv are saved as seperate files.  For more information see readme.txt and whatsnew.txt
+        after downloading the update.
+        <a href="http://1st-soft.net/gdd/">Visit the GDD Home page to get the update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Wed, 26 Aug 2009 20:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD 0.61</title>
+      <description>
+        <![CDATA[Google docs was recently updated and as a result GDD did not handle PDF exports correctly anymore.  This update resolves that problem. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Thu, 23 Jul 2009 20:00:00 -0600</pubDate>
+    </item>
+    <item>
+      <title>gdd.py version 0.6 available</title>
+      <description>
+        <![CDATA[
+        <p>A new version of gdd.py is now available.  Here's a summary of changes.</p>
+	<p>Bug Fixes</p>
+	<ul>
+	<li>Option parsing updated.</li>
+	<li>Bugs with file names resolved.</li>
+	<li>Bugs with path setting resolved.</li>
+	<li>Folders no longer treated as files.</li>
+	<li>Path to python environment included to execute script directly in *nix.</li>
+	<li>Documents no longer overwrite each other if they have the same title.</li>
+	</ul>
+
+	<p>New Features</p>
+	<ul>
+	<li>--unicode flag added to allow for file names with unicode characters included.</li>
+	<li>--datetag flag added to download files to a subdir named with the date & time.</li>
+	<li>Version checking occurs automatically when script finishes.</li>
+	</ul>
+
+	<p><a href="http://www.1st-soft.net/gdd/">Download the update at the GDD homepage</a>.</p>
+
+	<p>Also: <a href="http://code.google.com/p/googledocsdownload/">check out GDD at googlecode.com for more information on development</a>.</p>
+        ]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Fri, 10 Jul 2009 20:00:00 -0400</pubDate>
+    </item>
+    <item>
+      <title>GDD for Python 0.01</title>
+      <description>
+        <![CDATA[GDD for Python released.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sun, 07 Jun 2009 20:00:00 -0400</pubDate>
+    </item>
+  </channel>
+</rss>
