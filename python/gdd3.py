@@ -16,7 +16,7 @@ import ConfigParser
 import pickle
 import hashlib
 
-version = 0.8
+version = 0.81
 
 totaltime = time.time()
 
