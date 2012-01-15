@@ -16,7 +16,7 @@ import ConfigParser
 import pickle
 import hashlib
 
-version = 0.8
+version = 0.81
 
 totaltime = time.time()
 
@@ -507,7 +507,7 @@ def parseFeed(xml,auth=('','','')):
 				title = i.childNodes[0].nodeValue
 			if i.nodeName == 'id':
 				id = i.childNodes[0].nodeValue
-			if i.nodeName == 'content':
+			if i.nodeName == 'content' and i.attributes.has_key('src'):
 				src = i.attributes['src'].value
 			if i.nodeName == 'link' and i.attributes.keys().count('rel') > 0:
 				if i.attributes['rel'].value.find("#parent") != -1 and i.attributes.keys().count('href') > 0:
@@ -527,7 +527,10 @@ def parseFeed(xml,auth=('','','')):
 					docs.append({'doc':doc,'title':title + " (" + k + ")",'parent':parent,'id':id,'src':src+"&gid="+str(j),'etag':etag})
 					j += 1
 		else:
-			docs.append({'doc':doc,'title':title,'parent':parent,'id':id,'src':src,'etag':etag})
+			if src != '':
+				docs.append({'doc':doc,'title':title,'parent':parent,'id':id,'src':src,'etag':etag})
+			else:
+				print "NOTICE: " + title + " looks like a table. GDD can't download tables at this time."
 	for x in docs:
 		z = string.split(x['doc'],":")
 		type = z[0]

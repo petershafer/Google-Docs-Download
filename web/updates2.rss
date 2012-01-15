@@ -5,6 +5,16 @@
     <link>http://www.1st-soft.net/gdd/</link>
     <description>Stay up to date with GDD.</description>
     <item>
+      <title>gdd.py and gdd3.py version 0.81</title>
+      <description>
+        <![CDATA[
+		Version 0.81 will skip over tables, which previously were causing errors for users of gdd3.py.  Functionality to download tables will be added at a later time.  Thanks to Yaw for bringing the original issue to my attention! 
+        <a href="http://1st-soft.net/gdd/">Visit the GDD Home page to download</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Sat, 14 Jan 2011 15:00:00 -0400</pubDate>
+    </item>
+    <item>
       <title>gdd.py and gdd3.py version 0.8</title>
       <description>
         <![CDATA[
