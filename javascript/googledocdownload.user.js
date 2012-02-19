@@ -30,8 +30,8 @@ var SCRIPT = {
 	description: 'Create a download list of your google documents.',
 	source: "http://www.1st-soft.net/gdd/googledocdownload.user.js",
 	identifier: "http://www.1st-soft.net/gdd/googledocdownload.user.js",
-	version: "3.2",
-	date: (new Date(2011, 10, 22)).valueOf()
+	version: "3.3",
+	date: (new Date(2012, 2, 19)).valueOf()
 };
 
 
