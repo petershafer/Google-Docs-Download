@@ -5,6 +5,14 @@
     <link>http://www.1st-soft.net/gdd/</link>
     <description>Stay up to date with GDD.</description>
     <item>
+      <title>GDD 3.3 now available</title>
+      <description>
+        <![CDATA[Version 3.3 of GDD addresses several issues with download links, and also moves the download menu to the bottom left side of the page. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
+      </description>
+      <link>http://www.1st-soft.net/gdd/</link>
+      <pubDate>Thursday, 23 Feb 2012 21:00:00 -0400</pubDate>
+    </item>
+    <item>
       <title>GDD 3.2 now available</title>
       <description>
         <![CDATA[The latest version of GDD enables presentations created with the new interface to be exported. <a href="http://1st-soft.net/gdd/">Download Update</a>.]]>
@@ -163,14 +171,6 @@
       </description>
       <link>http://www.1st-soft.net/gdd/</link>
       <pubDate>Mon, 23 Jun 2008 20:00:00 -0600</pubDate>
-    </item>
-    <item>
-      <title>GDD 1.54</title>
-      <description>
-        <![CDATA[Support for backing up pdf documents has been added. You'll only need to update if you're looking for that feature. <a href="http://1st-soft.net/gdd/googledocdownload.user.js">Download Update</a>.]]>
-      </description>
-      <link>http://www.1st-soft.net/gdd/</link>
-      <pubDate>Sun, 15 Jun 2008 20:00:00 -0600</pubDate>
     </item>
   </channel>
 </rss>

@@ -30,8 +30,8 @@ var SCRIPT = {
 	description: 'Create a download list of your google documents.',
 	source: "http://www.1st-soft.net/gdd/googledocdownload.user.js",
 	identifier: "http://www.1st-soft.net/gdd/googledocdownload.user.js",
-	version: "3.2",
-	date: (new Date(2011, 10, 22)).valueOf()
+	version: "3.3",
+	date: (new Date(2012, 2, 19)).valueOf()
 };
 
 
@@ -390,9 +390,9 @@ function ExecuteSearch(event){
 					key = k.href.split("Doc?docid=")[1].split("&")[0];
 					url = "https://docs.google.com/"+appPath+"MiscCommands?command=saveasdoc&exportformat="+thisformat+"&docID="+key;
 					doctype = "doc";
-				}else if(k.href.indexOf("docs.google.com/document/d/") != -1){
+				}else if(k.href.indexOf("docs.google.com/"+appPath+"document/d/") != -1){
 					thisformat = findFormat(format)[1];
-					key = k.href.split("docs.google.com/document/d/")[1].split("/")[0];
+					key = k.href.split("docs.google.com/"+appPath+"document/d/")[1].split("/")[0];
 					url = "https://docs.google.com/"+appPath+"document/d/"+key+"/export?format="+thisformat+"&hl=en";
 					doctype = "doc";
 				}else if(k.href.indexOf("docs.google.com/"+appPath+"Doc?id=") != -1){
@@ -410,6 +410,11 @@ function ExecuteSearch(event){
 					thisformat = findFormat(format)[2];
 					url = "https://spreadsheets.google.com/"+appPath+"fm?fmcmd="+thisformat+"&key="+key;
 					doctype = "spread";
+				}else if(k.href.indexOf("docs.google.com/"+appPath+"spreadsheet/ccc?key=") != -1){
+					key = k.href.split("ccc?key=")[1].split("&")[0];
+					thisformat = findFormat(format)[2];
+					url = "https://spreadsheets.google.com/"+appPath+"fm?fmcmd="+thisformat+"&key="+key;
+					doctype = "spread";
 				}else if(k.href.indexOf("docs.google.com/"+appPath+"fileview?id=") != -1){
 					key = k.href.split("fileview?id=")[1].split("&")[0];
 					url = "https://docs.google.com/"+appPath+"uc?export=download&id="+key;
@@ -423,6 +428,11 @@ function ExecuteSearch(event){
 					url = "https://docs.google.com/"+appPath+"uc?export=download&id="+key;
 					doctype = "DoclistBlob";
 				}else if(k.href.indexOf("docs.google.com/"+appPath+"present/edit?docid=") != -1){
+					thisformat = findFormat(format)[3];
+					key = k.href.split("edit?docid=")[1].split("&")[0];
+					url = "https://docs.google.com/"+appPath+"MiscCommands?command=saveasdoc&exportFormat="+thisformat+"&docID="+key;
+					doctype = "pres";
+				}else if(k.href.indexOf("docs.google.com/present/"+appPath+"edit?docid=") != -1){
 					thisformat = findFormat(format)[3];
 					key = k.href.split("edit?docid=")[1].split("&")[0];
 					url = "https://docs.google.com/"+appPath+"MiscCommands?command=saveasdoc&exportFormat="+thisformat+"&docID="+key;
@@ -578,20 +588,13 @@ function InsertGDDMenu(){
 		button1.appendChild(message1);
 		button1.setAttribute("id","GDD_DL_BUTTON");
 		result.appendChild(button1);	
-		var topOfPage = document.getElementById('masthead').offsetTop+(document.getElementById('masthead').offsetHeight/2)-(document.getElementById('openGDDMenu').offsetHeight/2);
-		button1.setAttribute("style","font-size:13px; padding-right:10px; color:white; width:200px; position:absolute; top:"+(topOfPage+20)+"px; right:0px; z-index:10000; text-align:right;");
-		button1.setAttribute("onMouseDown","this.style.top=(this.offsetTop+2)+'px'; this.style.right='-2px'");
-		button1.setAttribute("onMouseUp","this.style.top=(this.offsetTop-2)+'px'; this.style.right='0px'");
-		
+		button1.setAttribute("style","font-size:13px; padding-right:10px; color:white; width:200px; position:absolute; bottom:25px; left:10px; z-index:10000; text-align:left;");
 		
 		var button2 = document.createElement("div");
 		button2.setAttribute("id","gddList");
-		if(appPath == ""){
-			button2.setAttribute("style","font-size:12px; border-style: solid; border-width: 1px; border-color: #CCCCCC #999999 #999999 #CCCCCC; background-color:white; color:#0000CC; display:none; position:absolute; top:"+(topOfPage+36)+"px; right:6px; z-index:10000; text-align:right;");
-		}else{
-			button2.setAttribute("style","font-size:12px; border-style: solid; border-width: 1px; border-color: #CCCCCC #999999 #999999 #CCCCCC; background-color:white; color:#0000CC; display:none; position:absolute; top:"+(topOfPage+36)+"px; right:6px; z-index:10000; text-align:right;");
-		}
 
+		button2.setAttribute("style","font-size:12px; border-style: solid; border-width: 1px; border-color: #CCCCCC #999999 #999999 #CCCCCC; background-color:white; color:#0000CC; display:none; position:absolute; bottom:45px; left:30px; z-index:10000; text-align:right;");
+		
 		var item1 = create_item("as Microsoft Office files","GDD_MSO");
 		button2.appendChild(item1);
 		var item2 = create_item("as Open Office files","GDD_OOF");
@@ -604,8 +607,6 @@ function InsertGDDMenu(){
 		button2.appendChild(item5);
 		var item7 = create_item("Enable / Disable Notices","GDD_Enable");
 		button2.appendChild(item7);
-		//var item11 = create_item("Use GDD Via Mobile Docs","GDD_Mobile");
-		//button2.appendChild(item11);
 		var item10 = create_item("About File Formats","GDD_AboutFormat");
 		button2.appendChild(item10);
 		var item8 = create_item("Check for updates","GDD_Update");
