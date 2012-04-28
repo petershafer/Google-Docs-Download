@@ -4,6 +4,8 @@
 // @description    Create a download list of your google documents.
 // @include        http://docs.google.com/*
 // @include        https://docs.google.com/*
+// @include        http://drive.google.com/*
+// @include        https://drive.google.com/*
 // @exclude        http://docs.google.com/Doc?docid=*
 // @exclude        https://docs.google.com/Doc?docid=*
 // @exclude        http://docs.google.com/Doc?id=*
@@ -30,8 +32,8 @@ var SCRIPT = {
 	description: 'Create a download list of your google documents.',
 	source: "http://www.1st-soft.net/gdd/googledocdownload.user.js",
 	identifier: "http://www.1st-soft.net/gdd/googledocdownload.user.js",
-	version: "3.3",
-	date: (new Date(2012, 2, 19)).valueOf()
+	version: "3.4",
+	date: (new Date(2012, 4, 28)).valueOf()
 };
 
 
@@ -536,7 +538,11 @@ function makepage(files){
 		}else if(files[i][2] == "draw"  || files[i][2] == "drawing"){
 			icon = "<img src=\"/images/doclist/icon_6_drawing.png\" style=\"vertical-align:top;\" />"
 		}
-		linklist.write("<li style=\"overflow:hidden; background-color:"+color+"; list-style-type: none; padding:3px; font-size:14px;\"><nobr>"+icon+" <a href=\""+files[i][1]+"\" style=\"font-weight:bold;\" onClick=\"this.style.fontWeight='normal';\">"+files[i][0]+"</a></nobr></li>");
+		if(files[i][1] != ""){
+		    linklist.write("<li style=\"overflow:hidden; background-color:"+color+"; list-style-type: none; padding:3px; font-size:14px;\"><nobr>"+icon+" <a href=\""+files[i][1]+"\" style=\"font-weight:bold;\" onClick=\"this.style.fontWeight='normal';\">"+files[i][0]+"</a></nobr></li>");
+		}else{
+		    linklist.write("<li style=\"overflow:hidden; background-color:"+color+"; list-style-type: none; padding:3px; font-size:14px;\"><nobr><img src=\"/images/doclist/icon_6_generic.png\" style=\"vertical-align:top;\" /> <span title=\"GDD does not support downloading of raw files.  Please use the Google Drive app instead.\">"+files[i][0]+"</span></nobr></li>");
+		}
 	}
 	
 	linklist.write('</ul>');
@@ -582,7 +588,7 @@ function InsertGDDMenu(){
 		button1.appendChild(arrow);
 		button1.appendChild(document.createTextNode(" "));
 		
-		message1.appendChild(document.createTextNode("Download Your Documents"));
+		message1.appendChild(document.createTextNode("Download Documents"));
 		message1.setAttribute("style","margin:0px;cursor:pointer;color:blue;text-decoration:underline;");
 		message1.setAttribute("id","openGDDMenu");
 		button1.appendChild(message1);
